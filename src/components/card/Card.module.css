@@ -1,0 +1,64 @@
+.container {
+  padding: 0 1rem;
+}
+.card {
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+label {
+  width: 100%;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+.para {
+  word-break: break-all;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.title {
+  text-align: center;
+  color: #0a2a61;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+.editButton {
+  color: black;
+  background: #eff0f4;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  padding: 1rem 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.editButton:hover {
+  background: #0a2a61;
+  color: #f9cd41;
+}
+.deleteButton {
+  color: black;
+  background: #eff0f4;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.deleteButton:hover {
+  background: #0a2a61;
+  color: #f9cd41;
+}

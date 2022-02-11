@@ -1,0 +1,11 @@
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.image {
+  object-fit: cover;
+  width: 40%;
+}

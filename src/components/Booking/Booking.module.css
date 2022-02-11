@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.rosewoodhotels.com/is/image/rwhg/RWLVP_El%20Restaurante%20(2):WIDE-LARGE-16-9");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.title {
+  letter-spacing: 0.3rem;
+  font-size: 2.9rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  all: unset;
+  outline: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  width: 100%;
+  font-size: 1.56rem;
+}
+label {
+  font-size: 2rem;
+  width: 100%;
+}
+.addUser {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.addUserButton {
+  color: black;
+  background: #eff0f4;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.addUserButton:hover {
+  background: #0a2a61;
+  color: #f9cd41;
+}
+@media screen and (max-width: 1000px) {
+  .details {
+    padding: 0 0.3rem;
+  }
+  .title {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+@media screen and(max-width:400px) {
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}

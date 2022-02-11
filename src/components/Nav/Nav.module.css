@@ -1,0 +1,44 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ff617a;
+  padding: 1rem 0;
+  max-width: 100%;
+}
+.navBar > .title {
+  font-size: 2rem;
+  color: white;
+}
+.navItems {
+  display: flex;
+  align-items: center;
+}
+.navItems > a {
+  text-decoration: none;
+  color: white;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+.navItems > a:hover {
+  color: black;
+}
+.navItems > a:active {
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .navBar {
+    display: block;
+    text-align: center;
+  }
+  .navBar > .title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .navItems {
+    display: flex;
+    justify-content: center;
+  }
+  .navItems > a {
+    font-size: 1.5rem;
+  }
+}
